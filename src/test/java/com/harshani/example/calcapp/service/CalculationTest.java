@@ -34,7 +34,7 @@ public class CalculationTest {
     @Test
     public void testMul(){
         Assertions.assertNotNull(calc, "Service object is null");
-        Assertions.assertEquals(36, calc.sub(9,4));
+        Assertions.assertEquals(36, calc.mul(9,4));
     }
 
     @AfterEach
