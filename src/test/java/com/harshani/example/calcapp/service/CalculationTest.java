@@ -40,7 +40,7 @@ public class CalculationTest {
     @Test
     public void testDiv(){
         Assertions.assertNotNull(calc, "Service object is null");
-        Assertions.assertEquals(9, calc.mul(81,9));
+        Assertions.assertEquals(9, calc.div(81,9));
     }
 
     @AfterEach
