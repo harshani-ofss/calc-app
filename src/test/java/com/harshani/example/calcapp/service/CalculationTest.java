@@ -46,7 +46,7 @@ public class CalculationTest {
     @Test
     public void testpow(){
         Assertions.assertNotNull(calc, "Service object is null");
-        Assertions.assertEquals(32, calc.power(2,5));
+        Assertions.assertEquals(36, calc.power(6,2));
     }
 
     @AfterEach
