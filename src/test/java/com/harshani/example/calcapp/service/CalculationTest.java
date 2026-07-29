@@ -28,7 +28,7 @@ public class CalculationTest {
     @Test
     public void testSub(){
         Assertions.assertNotNull(calc, "Service object is null");
-        Assertions.assertEquals(5, calc.sub(9,4));
+        Assertions.assertEquals(5, calc.sub(10,5));
     }
 
     @Test
